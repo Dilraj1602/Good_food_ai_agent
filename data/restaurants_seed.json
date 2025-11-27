@@ -1,0 +1,50 @@
+[{
+  "id": "r_001",
+  "name": "The Green Spoon",
+  "area": "Koramangala",
+  "capacity": 60,
+  "cuisines": ["Vegetarian", "Fusion"],
+  "rating": 4.6,
+  "tables": [{"table_id": "T1", "seats": 4}, {"table_id": "T2", "seats": 6}],
+  "open_hours": {"mon": "11:00-23:00"}
+},
+{
+  "id": "r_002",
+  "name": "Spice Route",
+  "area": "Indiranagar",
+  "capacity": 80,
+  "cuisines": ["Indian", "Barbecue"],
+  "rating": 4.4,
+  "tables": [{"table_id": "T1", "seats": 2}, {"table_id": "T2", "seats": 4}],
+  "open_hours": {"mon": "12:00-23:30"}
+},
+{
+  "id": "r_003",
+  "name": "Ocean's Catch",
+  "area": "Whitefield",
+  "capacity": 50,
+  "cuisines": ["Seafood"],
+  "rating": 4.2,
+  "tables": [{"table_id": "T1", "seats": 2}, {"table_id": "T2", "seats": 4}],
+  "open_hours": {"mon": "11:30-22:30"}
+},
+{
+  "id": "r_004",
+  "name": "Pasta Palace",
+  "area": "MG Road",
+  "capacity": 40,
+  "cuisines": ["Italian"],
+  "rating": 4.0,
+  "tables": [{"table_id": "T1", "seats": 4}, {"table_id": "T2", "seats": 4}],
+  "open_hours": {"mon": "11:00-22:00"}
+},
+{
+  "id": "r_005",
+  "name": "Night Bites",
+  "area": "Koramangala",
+  "capacity": 30,
+  "cuisines": ["Fast Food", "Street"],
+  "rating": 3.9,
+  "tables": [{"table_id": "T1", "seats": 2}, {"table_id": "T2", "seats": 2}],
+  "open_hours": {"mon": "18:00-02:00"}
+}]
