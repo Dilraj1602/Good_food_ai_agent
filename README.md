@@ -59,19 +59,40 @@ prebuilt wheels are available.
 ## Demo Video
 
 - **Link:** [https://drive.google.com/file/d/1eZ1gttA2bC51ljh5AQmGtIy8i4hHzmTI/view?usp=sharing]
-- **How to replace:**
-    1. Upload your demo video to Google Drive.
-    2. Right-click the file → **Get link**.
-    3. Change the link access to **Anyone with the link** (or add specific viewers).
-    4. Copy the share link and paste it into this README by replacing the placeholder URL.
-- **Embed example:**
 
-```markdown
-- **Demo video:** [Watch the demo](https://drive.google.com/your-link-here)
-```
+Project Structure
 
-- **Notes:**
-    - Make sure the Drive share settings allow viewing for your audience.
-    - For private demos, add viewer email addresses explicitly instead of using public sharing.
+```text
+sarvan_ai_assign/
+└── goodfoods-agent/
+    ├── app/
+    │   ├── __pycache__/
+    │   │   ├── __init__.cpython-313.pyc
+    │   │   ├── controller.cpython-313.pyc
+    │   │   ├── llm_client.cpython-313.pyc
+    │   │   ├── recommender.cpython-313.pyc
+    │   │   ├── schemas.cpython-313.pyc
+    │   │   ├── tools.cpython-313.pyc
+    │   │   └── utils.cpython-313.pyc
+    │   ├── __init__.py
+    │   ├── controller.py
+    │   ├── llm_client.py
+    │   ├── prompts.py
+    │   ├── recommender.py
+    │   ├── schemas.py
+    │   ├── streamlit_app.py
+    │   ├── tools.py
+    │   └── utils.py
+    │
+    ├── db/
+    │   ├── .gitkeep
+    │   └── reservations.db
+    │
+    ├── scripts/
+    │   └── check_imports.py
+    │
+    ├── .gitignore
+    ├── README.md
+    └── requirements.txt
 
 ```
